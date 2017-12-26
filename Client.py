@@ -95,7 +95,7 @@ def receiveMessage():
         T.insert(END, dateStr + " " + operations[message] + "\n")
         T.see(END)
         root.after(0, showGIF, action, 0)
-        if message in [1, 2, 3, 4]:
+        if message in [4, 5, 6, 7]:
             root.after(1500, showGIF, "5", 0)
 
 
